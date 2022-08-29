@@ -137,7 +137,7 @@ class SiteController extends Controller
      * @throws \yii\base\InvalidConfigException
      * @throws \yii\db\StaleObjectException
      */
-    public function actionDeleteReview($id): Response
+    public function actionDelete($id): Response
     {
         $review = $this->findReview($id);
 
