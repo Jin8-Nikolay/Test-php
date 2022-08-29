@@ -2,7 +2,7 @@
 
 PHP 8.1, Apache_2.4-PHP_8.0-8.1, MySQL-5.7 
 
-1. Псоле клонирования запустить php init (dev - среда).
+1. После клонирования запустить php init (dev - среда).
 2. Поставить пакеты:
    composer require "kartik-v/yii2-widget-select2": "dev-master"
    composer require --prefer-dist yii2tech/spreadsheet
